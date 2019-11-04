@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChildActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" My Child"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 2"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/group1"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/group3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 3"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/group2"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/group4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 4"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/group3"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/group5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 5"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/group4"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/group6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 6"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/group5"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/group7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 7"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/group6"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/group8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 8"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/group7"
+        android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/group9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group 9"
+                android:background="@drawable/custom_buttons"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:textSize="15dp"
+                android:layout_below="@id/group8"
+                android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

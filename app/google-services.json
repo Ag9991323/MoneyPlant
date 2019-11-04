@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171933430198",
+    "firebase_url": "https://networkmarketing-96897.firebaseio.com",
+    "project_id": "networkmarketing-96897",
+    "storage_bucket": "networkmarketing-96897.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171933430198:android:107826ad1117ae678f9117",
+        "android_client_info": {
+          "package_name": "com.example.networkmarketing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171933430198-i0v5e88leteu87lm58m0iqui300qfrgt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.networkmarketing",
+            "certificate_hash": "5dd3b21022c867ff6954a8f76661526bb3a09e2c"
+          }
+        },
+        {
+          "client_id": "171933430198-nr9ksht2lm2ti5dj7qogpmakinmi7c3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzj9Bol_Mn2CclF9WcZ9Npjpm5UFIHaDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171933430198-nr9ksht2lm2ti5dj7qogpmakinmi7c3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

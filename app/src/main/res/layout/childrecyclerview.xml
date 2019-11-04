@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageicon"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/ic_user"/>
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/imageicon"
+        android:text="Name"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/callIcon"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@id/Name"
+        android:background="@drawable/ic_phone"/>
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:layout_below="@id/Name"
+        android:text="Phone"
+        android:layout_toRightOf="@id/callIcon"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        />
+ <TextView
+     android:id="@+id/refererTv"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:padding="5dp"
+     android:text="Refered By"
+     android:layout_below="@id/Phone"
+     android:textSize="20dp"
+     android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/referernumber"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:text=" number"
+        android:paddingLeft="5dp"
+
+        android:layout_below="@id/Phone"
+        android:layout_toRightOf="@id/refererTv"
+        android:layout_marginLeft="10dp"
+        />
+
+</RelativeLayout>

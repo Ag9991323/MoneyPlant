@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".RegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register "
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:layout_below="@id/Register"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/mobileNoEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:layout_below="@id/nameET"
+        android:layout_marginTop="25dp"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etPasswordLayout"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobileNoEt"
+        app:passwordToggleEnabled="true"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <EditText
+        android:id="@+id/bankAccountEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:hint="Account Number"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:layout_below="@id/etPasswordLayout"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:id="@+id/IFSCCodeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:hint="IFSC COdE"
+        android:textSize="20dp"
+        android:layout_below="@id/bankAccountEt"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/referIdEt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:hint="Enter Refer Id"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:layout_below="@id/IFSCCodeEt"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_toRightOf="@id/referIdEt"
+        android:layout_below="@id/IFSCCodeEt"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/custom_buttons"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@id/referIdEt"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/alreadyRegisteredTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/registerBtn"
+        android:text="Already Registered"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
